@@ -8,11 +8,11 @@
         <servlet-name>first-servlet</servlet-name>
         <servlet-class>com.korit.servlet_study.ch01.FirstServlet</servlet-class>
     </servlet>
-
     <servlet-mapping>
         <servlet-name>first-servlet</servlet-name>
         <url-pattern>/ch01/firstservlet</url-pattern>
     </servlet-mapping>
+
     <servlet>
         <servlet-name>config-servlet</servlet-name>
         <servlet-class>com.korit.servlet_study.ch01.ServletConfigTest</servlet-class>

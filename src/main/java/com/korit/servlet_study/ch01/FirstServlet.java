@@ -19,6 +19,7 @@ public class FirstServlet extends HttpServlet { //상속 필수(HttpServlet)
     public void init(ServletConfig config) throws ServletException {
         System.out.println("초기화");
         config.getServletContext().setAttribute("age", 26);
+            // 시작되고 종료 될 때까지 계속 존재 함(전역)
     }
 
     @Override
