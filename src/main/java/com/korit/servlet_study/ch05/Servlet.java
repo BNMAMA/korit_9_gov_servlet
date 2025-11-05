@@ -8,11 +8,7 @@ import lombok.Data;
 public abstract class Servlet {
 
 
-    public void doget(Request req, Response response) {
+    public void doget(Request req, Response response) {}
 
-    }
-
-    public void doPost(Request req, Response response) {
-
-    }
+    public void doPost(Request req, Response response) {}
 }
