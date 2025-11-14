@@ -6,7 +6,8 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 
 //@WebFilter("/ch09/student")
-public class EncodingFilter implements Filter {
+public class
+EncodingFilter implements Filter {
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
        // 인코딩 과정
